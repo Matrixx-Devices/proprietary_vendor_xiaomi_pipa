@@ -212,8 +212,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    audio.primary.pipa \
-    liba2dpoffload_pipa \
+    audio.primary.kona \
+    liba2dpoffload \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioroute_ext \
