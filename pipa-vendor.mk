@@ -209,7 +209,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
+    vendor/xiaomi/pipa/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-8k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-8k.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-hp-mgame.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-hp-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-hp-normal.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-india-per-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-india-per-class0.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-india-per-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-india-per-normal.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-india-per-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-india-per-video.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-navigation.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-navigation.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-camera.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-class0.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-huanji.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-huanji.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-navigation.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-navigation.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-normal.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-per-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-video.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-phone.conf \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf
 
 PRODUCT_PACKAGES += \
     audio.primary.kona \
