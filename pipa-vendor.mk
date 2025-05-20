@@ -366,6 +366,7 @@ PRODUCT_PACKAGES += \
     libthirdpartpkg \
     libthreadutils \
     libtriplecam_optical_zoom_control \
+    libtriplecam_video_optical_zoom \
     libultrasound \
     libvideofilter_only \
     libvidhance \
